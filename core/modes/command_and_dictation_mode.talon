@@ -11,3 +11,10 @@ mode: dictation
     mode.disable("sleep")
     mode.disable("dictation")
     mode.enable("command")
+    user.command_mode_color_preset()
+
+^mixed mode$:
+  mode.disable("sleep")
+  mode.enable("dictation")
+  mode.enable("command")
+  user.mixed_mode_color_preset()

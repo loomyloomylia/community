@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: Liabox
+-
+user: C:\Users\Lia Hepler Mackey
+desktop: C:\Users\Lia Hepler Mackey\Desktop
+desk: C:\Users\Lia Hepler Mackey\Desktop
+documents: C:\Users\Lia Hepler Mackey\Documents
+docks: C:\Users\Lia Hepler Mackey\Documents
+downloads: C:\Users\Lia Hepler Mackey\Downloads
+music: C:\Users\Lia Hepler Mackey\Music
+pictures: C:\Users\Lia Hepler Mackey\Pictures
+videos: C:\Users\Lia Hepler Mackey\Videos
+talon home: C:\Users\Lia Hepler Mackey\AppData\Roaming\talon
+talon recordings: C:\Users\Lia Hepler Mackey\AppData\Roaming\talon\recordings
+talon user: C:\Users\Lia Hepler Mackey\AppData\Roaming\talon\user
+profile: C:\Users\Lia Hepler Mackey

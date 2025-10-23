@@ -11,7 +11,9 @@ not tag: user.deep_sleep
 # It's a useful and well known command, though, so if you're using any other speech
 # engine, this controls Talon.
 
-^(wake up)+$: speech.enable()
+^(wake up)+$:
+    speech.enable()
+    user.wake_up_color_preset()
 
 ^talon wake [<phrase>]$:
     speech.enable()
