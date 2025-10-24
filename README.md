@@ -1,4 +1,7 @@
 # community
+This is my personal fork of the community voice command set for Talon Voice.
+The original README is below.
+
 
 Voice command set for [Talon](https://talonvoice.com/), community-supported.
 
