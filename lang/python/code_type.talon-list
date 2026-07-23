@@ -3,6 +3,7 @@ code.language: python
 -
 any: Any
 boolean: bool
+bullion: bool
 bytes
 callable: Callable
 dick: Dict
