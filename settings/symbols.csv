@@ -2,13 +2,13 @@ Symbol,Mode (command/dictation/both),Spoken Forms (separated with commas)
 `,both,back tick
 `,command,grave
 ",",both,comma,coma
-.,both,period,full stop
+.,both,full stop
 .,command,dot,point
 ;,both,semicolon
 ;,command,semi
 :,both,colon
 ?,both,question mark
-?,command,question
+?,both,question
 !,both,exclamation mark,exclamation point
 !,command,bang
 *,both,asterisk
