@@ -16,5 +16,5 @@ not tag: user.deep_sleep
     user.wake_up_color_preset()
 
 ^talon wake [<phrase>]$:
-    speech.enable()
     user.deprecate_command("2025-06-25", "talon wake (without dragon)", "wake up")
+    speech.enable()

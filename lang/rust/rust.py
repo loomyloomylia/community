@@ -215,7 +215,10 @@ ctx.lists["user.code_type_modifier"] = {
 }
 
 
-@ctx.capture("user.code_type", rule="[{user.code_type_modifier}] {user.code_type}")
+@ctx.capture(
+    "user.code_type",
+    rule="[{user.code_type_modifier}] {user.code_type}",
+)
 def code_type(m) -> str:
     """Returns a macro name"""
     return "".join(m)
@@ -389,6 +392,6 @@ def code_insert_function_or_macro(
 RT = TypeVar("RT")  # return type
 
 
-def repeat_call(n: int, f: Callable[..., RT], *args: Any, **kwargs: Any):
+def repeat_call[RT](n: int, f: Callable[..., RT], *args: Any, **kwargs: Any):
     for _ in range(n):
         f(*args, **kwargs)

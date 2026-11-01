@@ -27,8 +27,8 @@ not speech.engine: dragon
 
 
 ^talon sleep [<phrase>]$:
-    speech.disable()
     user.deprecate_command("2025-06-25", "talon sleep (without dragon)", "go to sleep")
+    speech.disable()
 
 ^sleep all [<phrase>]$:
     user.switcher_hide_running()
