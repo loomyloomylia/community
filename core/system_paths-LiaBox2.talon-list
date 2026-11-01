@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: LiaBox2
+-
+user: C:\Users\liahe
+desktop: C:\Users\liahe\Desktop
+desk: C:\Users\liahe\Desktop
+documents: C:\Users\liahe\Documents
+docks: C:\Users\liahe\Documents
+downloads: C:\Users\liahe\Downloads
+music: C:\Users\liahe\Music
+pictures: C:\Users\liahe\Pictures
+videos: C:\Users\liahe\Videos
+talon home: C:\Users\liahe\AppData\Roaming\talon
+talon recordings: C:\Users\liahe\AppData\Roaming\talon\recordings
+talon user: C:\Users\liahe\AppData\Roaming\talon\user
+profile: C:\Users\liahe
