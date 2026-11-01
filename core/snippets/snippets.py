@@ -15,6 +15,8 @@ from .snippets_parser import create_snippets_from_file
 
 SNIPPETS_DIR = Path(__file__).parent / "snippets"
 
+
+
 mod = Module()
 
 mod.list("snippet", "List of insertion snippets")
@@ -47,16 +49,19 @@ for lang in code_languages:
 
 
 def get_setting_dir():
+    # print("\n\nSAY_HELLO_THERE\n\n")
     setting_dir = settings.get("user.snippets_dir")
+    print(setting_dir)
     if not setting_dir:
         return None
-
+    print("Hey this has fired")
     dir = Path(setting_dir)
-
+    print(f"{dir}")
     if not dir.is_absolute():
         user_dir = Path(actions.path.talon_user())
         dir = user_dir / dir
-
+        print(f"{dir} corrected")
+    print(f"{dir.resolve()} resolved")
     return dir.resolve()
 
 
@@ -217,7 +222,10 @@ def get_snippets_from_files() -> list[Snippet]:
         result.extend(create_snippets_from_file(file))
 
     if setting_dir:
+        print(f"retrieving...{setting_dir}")
+        print(setting_dir.glob("**/*.snippet"))
         for file in setting_dir.glob("**/*.snippet"):
+            print(file)
             result.extend(create_snippets_from_file(file))
 
     return result

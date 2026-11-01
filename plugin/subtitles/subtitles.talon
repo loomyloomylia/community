@@ -1,5 +1,5 @@
 not hostname: LiaBox2
-
+-
 settings():
     # Show subtitles?
     user.subtitles_show = true
